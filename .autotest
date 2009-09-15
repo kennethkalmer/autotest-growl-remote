@@ -1,0 +1,4 @@
+require 'lib/autotest/growl/remote'
+
+Autotest::Growl::Remote.remote_host = '172.16.133.1'
+Autotest::Growl::Remote.hide_label = true
