@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
 Growl. No fancy icons, but great for sending messages from a virtual machine
 or a local CI box.}
   s.email = ["kenneth.kalmer@mgila.com"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/autotest-growl-remote.rb", "script/console", "script/destroy", "script/generate", "spec/autotest-growl-remote_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "TODO.txt"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "TODO.txt", "lib/autotest-growl-remote.rb", "lib/autotest/growl/remote.rb", "lib/autotest/growl/result.rb", "lib/autotest/growl/ruby-growl.rb", "script/console", "script/destroy", "script/generate", "spec/autotest-growl-remote_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
   s.homepage = %q{http://github.com/kennethkalmer/autotest-growl-remote}
   s.post_install_message = %q{PostInstall.txt}
   s.rdoc_options = ["--main", "README.rdoc"]

@@ -3,7 +3,11 @@ Manifest.txt
 PostInstall.txt
 README.rdoc
 Rakefile
+TODO.txt
 lib/autotest-growl-remote.rb
+lib/autotest/growl/remote.rb
+lib/autotest/growl/result.rb
+lib/autotest/growl/ruby-growl.rb
 script/console
 script/destroy
 script/generate
